@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/binding" />
+            <option value="$PROJECT_DIR$/binding/databindingdemo" />
+            <option value="$PROJECT_DIR$/binding/viewbindingdemo" />
+            <option value="$PROJECT_DIR$/database" />
+            <option value="$PROJECT_DIR$/database/roomdemo" />
+            <option value="$PROJECT_DIR$/inject" />
+            <option value="$PROJECT_DIR$/inject/hiltdemo" />
+            <option value="$PROJECT_DIR$/startup" />
+            <option value="$PROJECT_DIR$/startup/firstdemo" />
+            <option value="$PROJECT_DIR$/test" />
+            <option value="$PROJECT_DIR$/test/uiautomator" />
+            <option value="$PROJECT_DIR$/viewmodel" />
+            <option value="$PROJECT_DIR$/viewmodel/viewmodeldemo" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

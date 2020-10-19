@@ -1,0 +1,27 @@
+type= raw events
+count= 1
+speed= 1.0
+start data >>
+
+LaunchActivity(com.ubtechinc.cruzr.uiautomator,com.ubtechinc.cruzr.uiautomator.MainActivity);
+UserWait(1000);
+
+# 按下
+DispatchPointer(0,0,0,100,150,0,0,0,0,0,0,0)
+# 抬起
+DispatchPointer(0,0,1,100,150,0,0,0,0,0,0,0)
+UserWait(1000);
+
+DispatchPointer(0,0,0,300,150,0,0,0,0,0,0,0)
+DispatchPointer(0,0,1,300,150,0,0,0,0,0,0,0)
+UserWait(1000);
+
+DispatchPointer(0,0,0,530,150,0,0,0,0,0,0,0)
+DispatchPointer(0,0,1,530,150,0,0,0,0,0,0,0)
+UserWait(1000);
+
+DispatchPress(KEYCODE_BACK);
+UserWait(1000);
+
+DispatchPress(KEYCODE_HOME);
+UserWait(1000);
